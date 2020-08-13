@@ -1,2 +1,0 @@
-# ctes
- custom encryption software
