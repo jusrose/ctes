@@ -11,7 +11,7 @@ print(info)
 #main class
 class CryptControl:
     #class init method
-    def __init__(self, keya="12345", keyb="abcdef", keyc="zyxwvut"):
+    def __init__(self, keya="12345", keyb="asdfgj", keyc="zyxwvut"):
         #import the key to the class and parse it
         self.ka = keya #table key 5 chars long
         self.kb = keyb #column key 6 chars long
