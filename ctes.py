@@ -144,6 +144,8 @@ class CryptControl:
         newText = ""
         #parse throughthe old text and using translation var translate it to the new text
         for i in text:
+            if i == " ":
+                i = "_"
             newText = newText + "{}".format(self.translation[i])
         #return the new text
         return newText
